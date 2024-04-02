@@ -1,0 +1,1247 @@
+:root {
+  --main-color: #ff2332;
+  --primary-color: #ff662d;
+  --dark-color: #37383c;
+  --darklight-color: #3a3b3f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+/* *********Navbar section*************** */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: .5rem .5rem;
+  z-index: 100;
+  background-color: rgb(24, 24, 24);
+  width: 100%;
+}
+
+.header .logo img {
+  width: 25%;
+}
+
+.header .navbar a {
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .navbar a:hover,
+.header .navbar a:focus {
+  color: var(--main-color);
+}
+
+.header .btn {
+  border: 0;
+  padding: .5rem;
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.icon i {
+  color: #d30816;
+  font-size: 1.5rem;
+  padding: 1rem;
+  display: none;
+}
+
+/* **********Hero section*********** */
+.hero {
+  background-image: url("./assets/Home1-Zzlw3oLi.jpg");
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  /* position: absolute; */
+  padding-top: 2rem;
+  width: 100%;
+  align-items: center;
+}
+
+.btn1 {
+  padding-inline: 1rem;
+  font-size: 1.1rem;
+  background-color: var(--main-color);
+  outline: none;
+  border: none;
+  color: #fff;
+
+}
+
+.hero-btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.play-btn {
+  color: #fff;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 500;
+  border: .1rem solid white;
+  text-align: center;
+
+  padding: .4rem;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-btn img {
+  width: 2rem;
+  margin-right: .3rem;
+  box-sizing: border-box;
+}
+
+.col1 {
+  padding: 5rem;
+}
+
+.col1 h1 {
+  font-size: 3.7rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.col1 p {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
+span {
+  color: #d30816;
+}
+
+
+/* **********Hero1 section*********** */
+.hero1 {
+  background-image: url("./assets/HomeBack1-sioQ5hsM.jpg");
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  /* position: absolute; */
+  padding-top: 2rem;
+  width: 100%;
+  align-items: center;
+}
+
+.hero-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col2 img {
+  height: 32rem;
+  position: relative;
+  top: 2rem;
+  left: 5rem;
+}
+
+/* **********Hero2********************* */
+
+
+.hero2 {
+  background-color: black;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding-top: 2rem;
+  width: 100%;
+  align-items: center;
+}
+
+.col2 img {
+  height: 35rem;
+  position: relative;
+  top: 2rem;
+  right: 15rem;
+}
+
+
+
+
+/* *********Hero3*********************** */
+.hero3 {
+  background-image: url("./assets/body2.jpg");
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding-top: 2rem;
+  width: 100%;
+  align-items: center;
+}
+
+.col2 img {
+  height: 30rem;
+  position: relative;
+  top: 2rem;
+  right: 15rem;
+}
+
+/* *********Fitness-Goal********* */
+
+
+.fitness-goal {
+  background-color: var(--dark-color);
+  padding: 1.4rem;
+  color: #fff;
+
+}
+
+.row-f {
+  display: flex;
+  justify-content: space-around;
+}
+
+.f-col2 img {
+  padding-inline: 1rem;
+}
+
+/* *********************************** */
+.fitness-goal1 {
+  background-color: var(--darklight-color);
+  padding: 5rem;
+  color: #fff;
+}
+
+.f-col1 {
+  position: relative;
+
+}
+
+.f-col1 img {
+  border-radius: .5rem;
+}
+
+.f-col1 .pro-trainer img {
+  height: 3rem;
+  border-radius: .5rem;
+
+}
+
+.pro-trainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 15rem;
+  gap: .8rem;
+  background-color: #fff;
+  width: 30%;
+  height: 15%;
+  border-radius: 1rem;
+  padding: .2rem;
+  position: absolute;
+  top: 17rem;
+  left: 25rem;
+}
+
+.pro-trainer h4 {
+  color: black;
+}
+
+.f-col2 button {
+  padding: .7rem;
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  margin-block: .5rem;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.f-col2 button:hover {
+  background-color: #3a3b3f;
+  border: .15rem solid #d30816;
+}
+
+.f-col2 h1 {
+  margin-block: .5rem;
+  font-size: 2.3rem;
+}
+
+.f-col2 p {
+  margin-bottom: .5rem;
+
+}
+
+
+/* *********************************** */
+.best-offer {
+  padding: 3rem;
+  background-color: var(--dark-color);
+  color: #fff;
+
+}
+
+.b-container1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.b-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.offer-box {
+  background-color: #494b50;
+  height: 15rem;
+  margin: 2rem;
+  width: 40%;
+  border-radius: 1rem;
+  padding: 1rem;
+  flex-direction: column;
+
+}
+
+.offer-box:hover {
+  background-color: var(--primary-color);
+  transition: all 1s ease;
+}
+
+.offer-box .icon i {
+  font-size: 3rem;
+  color: var(--main-color);
+}
+
+.offer-box .content {
+  flex-direction: column;
+}
+
+.offer-box .content h1 {
+  font-size: 1.5rem;
+  margin-top: .8rem;
+}
+
+.offer-box .content p {
+  font-size: 1rem;
+  margin-top: .3rem;
+}
+
+.offer-box .content .as {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* *************************** */
+
+.fitness-coach {
+  background-color: var(--darklight-color);
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem;
+  color: #fff;
+}
+
+.f-content {
+  margin-top: 1rem;
+}
+
+.f-content h4 i {
+  color: var(--primary-color);
+}
+
+.f-content h4 {
+  margin-block: 1rem;
+}
+
+.f-content p {
+  font-size: .8rem;
+}
+
+.f-coach img {
+  height: 25rem;
+}
+
+.f-content button {
+  padding: .7rem;
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  margin-block: 1.5rem;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.f-content button:hover {
+  background-color: #3a3b3f;
+  border: .15rem solid #d30816;
+}
+
+/* ************************************ */
+.plan {
+  background-color: var(--dark-color);
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+.p-container1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+
+}
+
+.p-content {
+  text-align: center;
+}
+
+.p-content h1 {
+  margin-block: 1rem;
+}
+
+.p-container2 {
+  display: flex;
+  justify-content: center;
+  min-height: 20%;
+
+
+}
+
+.p-box {
+  width: 18%;
+  background-color: #494b50;
+  border-radius: .5rem;
+
+  text-align: center;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.p-box:hover {
+  background-color: var(--main-color);
+  transition: all 1s ease;
+}
+
+.p-box h4 {
+  margin-bottom: .5rem;
+  font-size: .9rem;
+}
+
+.p-box h1 {
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.p-box h1 span {
+  color: #fff;
+  font-size: .8rem;
+}
+
+.p-box p {
+  font-size: .9rem;
+  margin-block: .5rem;
+}
+
+.p-box button {
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  border: .15rem solid #fff;
+  margin-block: 1rem;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.p-box button:hover {
+  border: .15rem solid black;
+}
+
+.pc-box {
+  width: 18%;
+  background-color: var(--primary-color);
+  border-radius: .5rem;
+  min-height: 2rem;
+  margin-inline: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.pc-box:hover {
+  background-color: var(--main-color);
+  transition: all 1s ease;
+}
+
+.pc-box h4 {
+  margin-bottom: .8rem;
+}
+
+.pc-box h1 {
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.pc-box h1 span {
+  color: #fff;
+  font-size: .8rem;
+}
+
+.pc-box p {
+  font-size: .9rem;
+  margin-block: .5rem;
+}
+
+.pc-box button {
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  margin-block: 1rem;
+  font-weight: bold;
+}
+
+.pc-box button:hover {
+  border: .15rem solid black;
+  background-color: transparent;
+}
+
+.most {
+  background-color: #fff;
+  color: black;
+  border-radius: 1rem;
+  padding: .3rem 1rem;
+  margin-left: 1.5rem;
+  position: absolute;
+  top: -5%
+}
+
+/* ********************************** */
+
+.client-container {
+  background-color: var(--darklight-color);
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem;
+
+}
+
+.client-page1 h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.client-page1 .par {
+  margin-block: 1rem;
+  color: #fff;
+  font-weight: 100;
+}
+
+.client-page1 .p1-img {
+  display: flex;
+  align-items: center;
+
+}
+
+.client-page1 .p1-img i {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  color: rgb(219, 186, 0);
+}
+
+.client-page1 .p1-img p {
+  color: #fff;
+  margin-left: .5rem;
+}
+
+.client-page1 .p1-img img {
+
+  height: 2.5rem;
+  border-radius: 50%;
+  border: .2rem solid var(--darklight-color);
+  margin-left: -.8rem;
+}
+
+.client-page1 .trust {
+  margin-block: 1.5rem;
+}
+
+.client-page2 {
+  width: 30%;
+}
+
+.client-slide {
+  padding: 2rem;
+}
+
+.client {
+  display: flex;
+}
+
+.c-img img {
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: .8rem;
+}
+
+.c-name h2 {
+  font-size: 1.5rem;
+
+}
+
+.c-name p {
+  font-size: .9rem;
+  font-weight: 100;
+}
+
+.star {
+  font-size: .8rem;
+  letter-spacing: .5rem;
+  color: rgb(219, 186, 0);
+  margin-block: .5rem;
+}
+
+.para p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+
+
+}
+
+.swiper-slide {
+  background-color: #404147;
+}
+
+
+/* ******************************* */
+
+.footer {
+  background-color: var(--dark-color);
+}
+
+.f-container {
+  padding: 2rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.company h2 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.company p {
+  font-size: .8rem;
+  font-weight: 100;
+  line-height: 1.5rem;
+}
+
+.company p i {
+  color: var(--main-color);
+}
+
+.sub h2 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.sub input {
+  padding: .5rem;
+  border-radius: 4rem;
+  border: none;
+  margin-bottom: .5rem;
+
+}
+
+.sub p {
+  font-size: .8rem;
+  font-weight: 100;
+  line-height: 1.5rem;
+}
+
+.content2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-top: .1rem solid #fff;
+}
+
+.c-logo img {
+  height: 3rem;
+}
+
+.copy p {
+  color: #fff;
+  letter-spacing: .3rem;
+  font-size: .8rem;
+  margin-top: .8rem;
+}
+
+.share i {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-right: .5rem;
+}
+
+
+/* ************************************ */
+
+@media only screen and (min-width:320px) and (max-width:576px) {
+  .header {
+    position: relative;
+  }
+
+  .header .logo img {
+    width: 40%;
+    margin-left: 1rem;
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 80px;
+ right: -100%;
+ border-radius: .5rem;
+    background: var(--main-color);
+    width: 10rem;
+    height: 20rem
+    
+  }
+  .header .navbar a{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: .5rem;
+   font-size: 1.5rem;
+   
+  }
+  .header .navbar a:hover{
+    color: black;
+  }
+
+  #menu-btn {
+    display: block;
+  }
+
+  .header .navbar.active  {
+    right: 1rem;
+    display: flex;
+    flex-direction: column
+    
+  }
+
+  /* ******************************************* */
+  .hero {
+    ;
+    height: 600px;
+    padding-top: 1rem;
+    width: 100%;
+  }
+
+  .btn1 {
+    padding-inline: .5rem;
+    font-size: 1rem;
+  }
+
+  .play-btn {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .4rem;
+    margin-left: 1rem;
+  }
+
+  .play-btn img {
+    width: 1.5rem;
+    margin-right: .3rem;
+  }
+
+  .col1 {
+    padding: 2.5rem;
+  }
+
+  .col1 h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+  }
+
+  .col1 p {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 200;
+    padding: .8rem 0;
+  }
+
+  /* ***************Hero1***************** */
+  .hero1 {
+    height: 600px;
+    padding-top: 1rem;
+    width: 100%;
+  }
+
+  .col2 img {
+    height: 0rem;
+  }
+
+
+  /* *********Fitness-Goal********* */
+  .fitness-goal {
+    background-color: var(--dark-color);
+    flex-wrap: wrap;
+  }
+
+  .f-col1 {
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    margin: 0;
+
+  }
+
+  .row-f {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    padding: .5rem;
+  }
+
+  .f-col2 img {
+    margin-block: 1rem;
+  }
+
+  /* *********************************** */
+  .fitness-goal1 {
+    background-color: var(--darklight-color);
+    padding: 1rem;
+    color: #fff;
+    flex-wrap: wrap;
+  }
+
+  .f-col1 {
+    position: relative;
+  }
+
+  .f-col1 img {
+    height: 13rem;
+  }
+
+  .f-col1 .pro-trainer img {
+    height: 1.7rem;
+    border-radius: .5rem;
+
+  }
+
+  .pro-trainer {
+    width: 33%;
+    height: 20%;
+    padding: .2rem;
+    top: 10rem;
+    left: 15rem;
+  }
+
+  .pro-trainer h4 {
+    color: black;
+    font-size: .7rem;
+  }
+
+  .f-col2 button {
+    padding: .7rem;
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    margin-block: .5rem;
+    font-size: .9rem;
+    font-weight: 700;
+  }
+
+  .f-col2 button:hover {
+    background-color: #3a3b3f;
+    border: .15rem solid #d30816;
+  }
+
+  .f-col2 h1 {
+    margin-block: .5rem;
+    font-size: 2rem;
+  }
+
+  .f-col2 p {
+    margin-bottom: .5rem;
+    font-size: .9rem;
+
+  }
+
+  /* ***********Best offer******* */
+
+  .best-offer {
+    padding: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .b-container1 {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .r-col2 p {
+    font-size: .9rem;
+    flex-wrap: wrap;
+    margin-block: 1rem;
+  }
+
+  .b-container2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .offer-box {
+    height: 15rem;
+    width: 60%;
+    padding: .2rem;
+    flex-wrap: wrap;
+    justify-content: left;
+
+  }
+
+  .offer-box .icon i {
+    font-size: 2rem;
+  }
+
+  .offer-box .content {
+    flex-wrap: wrap;
+    padding: .4rem;
+  }
+
+  .offer-box .content h1 {
+    font-size: 1.5rem;
+    margin-top: 0rem;
+
+  }
+
+  .offer-box .content p {
+    font-size: .9rem;
+    margin-top: .7rem;
+    flex-wrap: wrap;
+  }
+
+  .offer-box .content .as {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 5rem;
+  }
+
+  /* *********Fitness-coach*********** */
+
+  .fitness-coach {
+    flex-wrap: wrap;
+  }
+
+  .f-content {
+    margin-top: 0rem;
+  }
+
+  .f-content h1 {
+    flex-wrap: wrap;
+  }
+
+  .f-content h4 i {
+    color: var(--primary-color);
+  }
+
+  .f-content h4 {
+    margin-block: 1rem;
+  }
+
+  .f-content p {
+    font-size: .8rem;
+  }
+
+  .f-coach img {
+    height: 20rem;
+  }
+
+
+  /* **************Plan********************* */
+  .plan {
+    background-color: var(--dark-color);
+    color: #fff;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .p-container1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+
+  }
+
+  .p-content {
+    text-align: center;
+  }
+
+  .p-content h1 {
+    margin-block: .9rem;
+  }
+
+  .p-container2 {
+    display: flex;
+    min-height: 10%;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+
+
+  }
+
+  .p-box {
+    width: 30%;
+    background-color: #494b50;
+    border-radius: .5rem;
+
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+
+
+  .p-box h1 {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+  }
+
+  .p-box h1 span {
+    color: #fff;
+    font-size: .5rem;
+  }
+
+  .p-box p {
+    font-size: .5rem;
+    margin-block: .5rem;
+  }
+
+  .p-box button {
+    padding: .2rem .5rem;
+    margin-block: 1rem;
+    font-size: .5rem;
+  }
+
+  .pc-box {
+    width: 30%;
+    min-height: 2rem;
+    margin-inline: .5rem;
+    padding: 1.5rem;
+
+  }
+
+  .pc-box h4 {
+    margin-bottom: .5rem;
+  }
+
+  .pc-box h1 {
+    font-size: 1rem;
+    margin-bottom: .3rem;
+  }
+
+  .pc-box h1 span {
+    color: #fff;
+    font-size: .5rem;
+  }
+
+  .pc-box p {
+    font-size: .5rem;
+    margin-block: .5rem;
+  }
+
+  .pc-box button {
+    padding: .2rem .5rem;
+    margin-block: 1rem;
+    font-size: .5rem;
+  }
+
+  .most {
+    padding: .1rem .5rem;
+    margin-left: 1.5rem;
+    position: absolute;
+    right: 15%;
+    top: -2%
+  }
+
+  .pc-box h3 {
+    font-size: .5rem;
+
+  }
+
+  /* ***********Client***************** */
+
+  .client-container {
+    background-color: var(--darklight-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    flex-wrap: wrap;
+
+  }
+
+  .client-page1 h1 {
+    font-size: 1.8rem;
+    color: #fff;
+  }
+
+  .client-page1 .par {
+    margin-block: 1rem;
+    color: #fff;
+    font-size: .8rem;
+  }
+
+  .client-page1 .p1-img {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 2rem;
+  }
+
+  .client-page1 .p1-img i {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    color: rgb(219, 186, 0);
+  }
+
+  .client-page1 .p1-img p {
+    color: #fff;
+    margin-left: .2rem;
+  }
+
+  .client-page2 {
+    width: 100%;
+  }
+
+
+  /* ******************************* */
+
+  .footer {
+    background-color: var(--dark-color);
+  }
+
+  .f-container {
+    padding: 2rem;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: #fff;
+    flex-wrap: wrap;
+
+  }
+
+  .company {
+    margin-bottom: 1rem;
+  }
+
+  .company h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+  .company p {
+    font-size: .8rem;
+    font-weight: 100;
+    line-height: 1.5rem;
+  }
+
+  .company p i {
+    color: var(--main-color);
+  }
+
+  .sub h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+  .sub input {
+    padding: .5rem;
+    border-radius: 4rem;
+    border: none;
+    margin-bottom: .5rem;
+
+  }
+
+  .sub p {
+    font-size: .8rem;
+    font-weight: 100;
+    line-height: 1.5rem;
+  }
+
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0.5rem;
+    margin-top: 1rem;
+
+
+  }
+
+  .c-logo img {
+    height: 3rem;
+  }
+
+  .copy p {
+    color: #fff;
+    letter-spacing: .1rem;
+    font-size: .5rem;
+    margin-top: .8rem;
+  }
+
+  .share i {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: .5rem;
+    margin-block: 2rem;
+
+  }
+}
